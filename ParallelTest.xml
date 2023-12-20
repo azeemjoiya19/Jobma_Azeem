@@ -1,0 +1,15 @@
+<suite name="ParallelTestSuite">
+    <test name="ParallelTestChrome">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="com.jobma.qa.test.PositionsPageTest" />
+        </classes>
+    </test>
+
+    <test name="ParallelTestFirefox">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="com.jobma.qa.test.PositionsPageTest" />
+        </classes>
+    </test>
+</suite>
