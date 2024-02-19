@@ -94,7 +94,7 @@
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-server</artifactId>
     <version>3.141.59</version>
-</dependency>
+</dependency>  
 
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->

@@ -5,10 +5,13 @@
     <classes>
       <class name="com.jobma.qa.test.PositionsPageTest">
         <methods>
+          <include name="clickOnAddMoreAboutPositionTest"/>
+          <include name="clickOnCancelBtnOnJobConfigurationPageTest"/>
           <include name="addQuestionBtnTest1"/>
           <include name="setup"/>
-          <include name="cloneJobTest"/>
           <include name="Close"/>
+          <include name="cloneJobTest"/>
+          <include name="quickInviteTest"/>
           <include name="setConfigurationTest"/>
         </methods>
       </class> <!-- com.jobma.qa.test.PositionsPageTest -->

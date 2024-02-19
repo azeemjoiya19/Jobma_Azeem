@@ -47,6 +47,8 @@ public class PositionsPageTest  extends TestBase{
 	public void setup() throws InterruptedException, IOException
 	{
 		TestBase.initializeDriver("chrome");
+
+		
 		TestBase.intialize();
 		lp= new LoginPage();
 		lp.login(prop.getProperty("username"),prop.getProperty("password"));

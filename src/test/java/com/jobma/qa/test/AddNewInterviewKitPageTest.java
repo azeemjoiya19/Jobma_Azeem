@@ -41,6 +41,7 @@ public class AddNewInterviewKitPageTest extends TestBase {
 	public void firstKitTest() throws InterruptedException, IOException, AWTException
 	{  
 		anikp.defaultFirstKit();
+		//this is comment I am adding to check github client 
 	}
 
 	@Test(priority=2)

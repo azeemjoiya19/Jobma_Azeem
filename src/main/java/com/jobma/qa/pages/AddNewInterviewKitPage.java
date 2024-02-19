@@ -277,6 +277,10 @@ public class AddNewInterviewKitPage extends TestBase {
 
 	@FindBy(xpath="(//i[@class='bi bi-pencil'])[2]") // 
 	WebElement editexitnotebtn;
+	
+	
+	@FindBy(xpath= "")
+	WebElement a  ; 
 
 
 
